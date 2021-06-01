@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { IUser, ICard } from "../helpers/typescript-helpers/interfaces";
+import { IUser } from "../helpers/typescript-helpers/interfaces";
 import { CardStatus } from "../helpers/typescript-helpers/enums";
 
 export const createCard = async (req: Request, res: Response) => {
